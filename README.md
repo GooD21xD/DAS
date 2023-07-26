@@ -1,5 +1,5 @@
 # Desarrollo Adaptativo de software
-Proyecto de migración de procesos de la dirección de operaciones
+Proyecto de migración de procesos Practica-04 
 
 La aplicación presentada es una herramienta para la gestión y análisis de reportes de servicios en Claro. Está diseñada para administrar datos de diferentes flujos en áreas clave de la dirección de operaciones. Ofrece una experiencia completa de monitoreo y control, permitiendo explorar, evaluar y optimizar los servicios en diversos procesos. La herramienta cuenta con un sistema de logueo seguro y eficiente, y proporciona información detallada sobre los servicios adquiridos.
 
