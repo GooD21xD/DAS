@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App - Index</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>Welcome to my Django app!</p>
+
+    <h2>Activaciones</h2>
+    <table>
+        <tr>
+            <!-- <th>ID</th> -->
+            <th>Cliente</th>
+            <th>Documento</th>
+            <th>Correo</th>
+            <th>Telefono</th>
+            <th>Direccion</th>
+            <th>Servicio</th>
+            <th>Plan</th>
+            <th>Fecha de Activacion</th>
+        </tr>
+        {% for activacion in activaciones %}
+        <tr>
+            <!-- <td>{{ activacion.id }}</td> -->
+            <td>{{ activacion.cliente }}</td>
+            <td>{{ activacion.documento }}</td>
+            <td>{{ activacion.correo }}</td>
+            <td>{{ activacion.telefono }}</td>
+            <td>{{ activacion.direccion }}</td>
+            <td>{{ activacion.servicio }}</td>
+            <td>{{ activacion.plan }}</td>
+            <td>{{ activacion.fec_activacion }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
